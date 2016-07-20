@@ -4,6 +4,11 @@
   float:right;
   width:100%;
 }
+
+.navbar-brand {
+  padding: 7px 15px;
+}
+
 .navbar-brand a:hover {
      color: palegreen;
 }
@@ -18,8 +23,6 @@
 .navbar-brand img {
   width: 36px;
   height: 35px;
-/*  background-color:palegreen;*/
-
 }
 
 .navbar-nav li a {
@@ -48,8 +51,18 @@ body {
 
 #carousel-example-generic  {
   width:100%;
-  padding-top: 8.5%;
-    
+}
+
+.container .carousel {
+  padding-top: 3.6%;
+}
+
+.container-fluid .carousel .carousel-inner>.item {
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
 }
 
 .carousel-content {
@@ -237,9 +250,7 @@ text-align: left;
     height: 400px;
 }
 
-
 /**** FAQ PAGE ****/
-
 
 .panel-group, #accordion{
   padding-left:7%; 
@@ -261,5 +272,22 @@ text-align: left;
   background-color: springgreen;
 }
 
-    
+/*** Custom Button ***/
 
+.btn-custom {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #ff1493;
+  border-radius: 0;
+}
+
+.btn-custom:hover {
+  color: palegreen;
+}
+
+.search-input {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #7d7d7d;
+  border-radius: 0;
+}
