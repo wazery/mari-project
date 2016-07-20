@@ -1,0 +1,265 @@
+/*	* { box-sizing: border-box; }*/
+
+.navbar {position: fixed!important; z-index: 9999 !important;
+  float:right;
+  width:100%;
+}
+.navbar-brand a:hover {
+     color: palegreen;
+}
+.navbar-brand a {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: fixed;
+/*  margin-top: 11px;*/
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+.navbar-brand img {
+  width: 36px;
+  height: 35px;
+/*  background-color:palegreen;*/
+
+}
+
+.navbar-nav li a {
+  list-style: none; 
+}  
+.navbar-nav li a:hover {
+ color: palegreen !important;
+}
+
+.navbar-nav li a {
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 1.25em;
+  color: deeppink !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+body {
+    overflow-x: hidden; 
+}
+
+/*HOME PAGE*/
+
+#carousel-example-generic  {
+  width:100%;
+  padding-top: 8.5%;
+    
+}
+
+.carousel-content {
+  color: deeppink;  
+  text-align: left; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+}
+.title-index, h1 {
+  
+  font-size: 3.5em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.subtitle-index, h2{
+  font-size: 2em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.title2-index, h3 {
+  font-size: 2em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.subtitle2-index, h4{
+  font-size: 1.5em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.title3-index, h5 {
+  font-size: 2em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.subtitle3-index, h6{
+  font-size: 1.5em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.grid-row-index{
+  padding-top: 20px;
+  width:100%;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+
+
+/*ABOUT*/---------------------
+
+
+.grid-row-about-banner{
+  width: 100%;
+}
+
+.grid-row-about1{
+  margin-left: 13%;
+  width:100%
+    
+}
+.col-md-3 col-xs-6{
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+width:100%;
+}
+.title-about, h1 {
+  text-align: center;
+  font-size: 1.3em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+
+.subtitle-about, h2{
+  text-align: left;
+  font-size: 1.2em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.title2-about, h3 {
+  text-align: center;
+  font-size: 1.3em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.subtitle2-about, h4{
+  text-align: left;
+  font-size: 1.2em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.title3-about, h5 {
+  text-align: center;
+  font-size: 1.3em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+.subtitle3-about, h6{
+  text-align: left;
+  font-size: 1.2em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(0, 255, 127); /* fallback color */
+  background-color: rgba(0, 255, 127, 0.5);
+}
+
+
+.img-responsive {
+  display: block;
+  padding-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+ }
+/*CONTACT*/
+
+.grid-row-contact{
+  padding-top:5%;
+  padding-right: 15%;
+  margin-left: 40%;
+  width:100%;
+}
+.grid-row-contact-img1{
+  text-align: center;
+  width:30%;
+}
+.grid-row-contact-img2{
+  text-align: center;
+  width:30%;
+}
+.grid-row-contact-img3{
+  text-align: center;
+  width:30%;
+}
+.grid-row-contact{
+text-align: left;
+  font-size: 1.5em; 
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+
+/**** WORK ****/
+.grid-row-work{
+/*  padding-top: 75px;*/
+    margin-top: 10px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+#contact{
+    background-image: url("../img/3681591061_8bcf0bac5f_o.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+
+/**** FAQ PAGE ****/
+
+
+.panel-group, #accordion{
+  padding-left:7%; 
+  padding-right:7%;
+  padding-top: 20px;
+}      
+.panel-title {
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: left;
+}
+.panel-body {
+  font-family: Open Sans "Light",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  text-align: left;
+  color: #333;
+  background-color: springgreen;
+}
+
+    
+
